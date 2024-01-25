@@ -57,7 +57,8 @@ function、linear kernel function 和 polynomial kernel function 何者的 SVM �
 準確率較高。最終以 rbf kernel function 的 SVM 模型的準確率為最高，所以採用
 了 rbf kernel function。
 
-
+![GITHUB](https://github.com/xuxinyun-cc/Project_beauty-and-composition-analysis-of-food-photos/blob/main/svm_accuracy.png)
+`不同的 kernel 參數在 SVM 上所實驗的結果`
 
 基於幾何元素的排列方式，將攝影構圖的規則分成 9 個類別，包含 RoT (Rule 
 of Thirds)、center、horizontal、symmetric、diagonal、curved、vertical、triangle、
