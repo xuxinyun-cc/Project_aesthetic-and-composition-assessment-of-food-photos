@@ -34,3 +34,36 @@ diagonal、curved、vertical、triangle、pattern，進一步對美食相片進�
 
 ![GITHUB](https://github.com/xuxinyun-cc/Project_beauty-and-composition-analysis-of-food-photos/blob/main/food101_percent.png)
 `Food-101 訓練和測試資料集數量`
+
+為了提升 GPD 的質量，而進行審核美學標籤，盡量排除錯誤、爭議性樣本。
+具體而言，此資料集是請八名具有良好美學感知能力的專業攝影師觀察標註。對
+於每組圖像標籤，他們可以選擇同意或不同意標註的標籤。如果超過四名專家同
+意，則美學標籤將會被保留。最終，我們建立了 GPD，內部包含了食物圖像和相
+應的美學標籤。
+
+
+
+在這個專題中，選擇了 Python 為主要程式語言來實現我們的實驗，採用了
+Tensorflow 和 Keras 的深度學習框架和機器學習的模型進行開發和訓練。運用
+VGG16 模型，以 ImageNet 大規模資料集為權重基礎，將 Food-101 數據集放入
+16 層的 VGG 模型中訓練，並取出倒數第二層 256 維的特徵，作為分類美食相片
+的模型學習的特徵。在參數上，對於損失函數，選擇了用於多類別分類任務的損
+失函數 categorical _ crossentropy，及目前廣泛被使用的優化演算法 adam 作為優
+化器，以調整模型的權重使最小化損失函數，這些技術和工具使我們能夠進一步
+的訓練模型。透過這個過程，將 GPD 放入上述的模型中加以訓練，進而再引入
+了 SVM 支援向量機作為分類器，進行模型的調整與分類工作，並且比較 rbf kernel 
+function、linear kernel function 和 polynomial kernel function 何者的 SVM 模型的
+準確率較高。最終以 rbf kernel function 的 SVM 模型的準確率為最高，所以採用
+了 rbf kernel function。
+
+
+
+基於幾何元素的排列方式，將攝影構圖的規則分成 9 個類別，包含 RoT (Rule 
+of Thirds)、center、horizontal、symmetric、diagonal、curved、vertical、triangle、
+pattern。藉由訓練 Convolutional neural network (CNN)，建立一個演算法，對每個
+元素設計一個標準辨別各個分類，而提取出最佳的構圖元素，針對每個元素的提
+取結果做量化和質化的評估。
+使用 KU-PCP 資料集，此資料集是由 18 個人做人工分類後，將有超過一半
+的有相同答案的視為 ground-truth，而每張照片最多可歸類於 3 種不同的分類。
+
+
