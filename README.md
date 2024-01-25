@@ -98,4 +98,10 @@ Sheng, K., Dong, W., Huang, H., Ma, C., & Hu, B. G. Gourmet photography
 dataset for aesthetic assessment of food images. In SIGGRAPH Asia 2018 technical 
 briefs, pp. 1-4, 2018.
 
+https://www.kaggle.com/code/imsparsh/food-classifier-mobilenetv2-resnet50-vgg16/notebook
 
+https://www.kaggle.com/datasets/kmader/food41
+
+https://github.com/Openning07/GPA
+
+https://mcl.korea.ac.kr/jtlee_jvcir2018/
