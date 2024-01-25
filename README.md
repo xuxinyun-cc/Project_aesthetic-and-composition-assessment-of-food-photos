@@ -86,4 +86,16 @@ model，且去除模型頂部的全連接層，僅保留特徵提取的部分，
 最終獲得的 loss = 0.99、F1_score = 0.75 的構圖偵測模型。進而將 GPD 放入
 構圖偵測模型加以辨識，以觀察何種構圖的方法利於我們拍攝出更好的美食相片。
 
+![GITHUB](https://github.com/xuxinyun-cc/Project_beauty-and-composition-analysis-of-food-photos/blob/main/gpd_composition_analysis.png)
+`GPD 的構圖分析`
+
+### 參考文獻:
+J. T. Lee, H. U. Kim, C. Lee, C., & C. S. Kim, Photographic composition 
+classification and dominant geometric element detection for outdoor scenes. Journal of 
+Visual Communication and Image Representation, 55, pp. 91-105, 2018.
+
+Sheng, K., Dong, W., Huang, H., Ma, C., & Hu, B. G. Gourmet photography 
+dataset for aesthetic assessment of food images. In SIGGRAPH Asia 2018 technical 
+briefs, pp. 1-4, 2018.
+
 
