@@ -41,7 +41,8 @@ diagonal、curved、vertical、triangle、pattern，進一步對美食相片進�
 意，則美學標籤將會被保留。最終，我們建立了 GPD，內部包含了食物圖像和相
 應的美學標籤。
 
-
+![GITHUB](https://github.com/xuxinyun-cc/Project_beauty-and-composition-analysis-of-food-photos/blob/main/gpd_percent.png)
+`GPD 在分類上的訓練和測試資料集數量`
 
 在這個專題中，選擇了 Python 為主要程式語言來實現我們的實驗，採用了
 Tensorflow 和 Keras 的深度學習框架和機器學習的模型進行開發和訓練。運用
