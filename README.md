@@ -32,3 +32,5 @@ diagonal、curved、vertical、triangle、pattern，進一步對美食相片進�
 練和評估食物圖像識別算法的豐富而多樣的資源，概念是創建一個比 CIFAR10
 或 MNIST 更刺激的簡單的訓練集，並且用於影像分析上。
 
+![GITHUB](https://github.com/xuxinyun-cc/Project_beauty-and-composition-analysis-of-food-photos/blob/main/food101_percent.png)
+`Food-101 訓練和測試資料集數量`
