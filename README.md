@@ -19,4 +19,5 @@
 綜合性的分析方法捕捉圖像中的視覺特徵，提供對美學品質的評價。再利用攝影
 構圖的規則分成九個類別，包含 RoT (Rule of Thirds)、center、horizontal、symmetric、
 diagonal、curved、vertical、triangle、pattern，進一步對美食相片進行構圖分析。
-
+![GITHUB](https://github.com/xuxinyun-cc/Project_beauty-and-composition-analysis-of-food-photos/blob/main/%E6%9E%B6%E6%A7%8B%E5%9C%96.png)
+`研界方法之架構圖`
